@@ -4,7 +4,7 @@
   "description": "Gulp extension to create recursive directories with custom group and users (1000:1000)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "keywords": [
     "gulp",
@@ -19,5 +19,16 @@
   "dependencies": {
     "child_process": "^1.0.2",
     "through2": "^2.0.3"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chadsfatherlali/gulp-create-custom-dir.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chadsfatherlali/gulp-create-custom-dir/issues"
+  },
+  "homepage": "https://github.com/chadsfatherlali/gulp-create-custom-dir#readme"
 }
