@@ -1,0 +1,23 @@
+{
+  "name": "gulp-create-custom-dir",
+  "version": "1.0.0",
+  "description": "Gulp extension to create recursive directories with custom group and users (1000:1000)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "create",
+    "directories"
+  ],
+  "author": "chadsfather",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.0.0"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "through2": "^2.0.3"
+  }
+}
