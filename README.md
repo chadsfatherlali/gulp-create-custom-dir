@@ -40,7 +40,7 @@ gulp.task('default', function () {
   return gulp.des('/some/example')
          .pipe(createRecursiveDir('/some/example/directory', 1000, 1000))
          .pipe(through.obj(function (chunk, enc, cb) {
-            console.log(chunk.__folderPath);
+            console.log(chunk.__folderPath); /*/some/example/directory*/
             
             cb(null, chunk);
          }));
