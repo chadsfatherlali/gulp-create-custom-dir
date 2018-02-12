@@ -1,5 +1,5 @@
 # gulp-create-custom-dir
-## Gulp extension to create recursive directories and you can specify the group and user (1000:1000).
+## Gulp extension to create recursive directories and you can specify the group and user (1000:1000) if the specified folder exist just applied the permissions.
 
 ![alt text](https://travis-ci.org/chadsfatherlali/gulp-create-custom-dir.svg?branch=master "Travis CI")
 
