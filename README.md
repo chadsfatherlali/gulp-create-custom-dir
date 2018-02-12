@@ -29,7 +29,7 @@ gulp.task('default', function () {
 
 **Also**
 
-**Receive on 'chunk.__folderPath' parameter the created folder name**
+**Receive on 'chunk.__folderPath' parameter the created folder name:**
 
 ```javascript
 var gulp = require('gulp'),
